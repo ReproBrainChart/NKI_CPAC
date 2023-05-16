@@ -1,0 +1,5 @@
+[submodule "inputs/data"]
+	path = inputs/data
+	url = /cbica/projects/RBC/RBC_RAWDATA/bidsdatasets/NKI
+	datalad-id = 9bf73b44-7bb4-4abd-b4af-578bf208ee3e
+	datalad-url = /cbica/projects/RBC/RBC_RAWDATA/bidsdatasets/NKI
