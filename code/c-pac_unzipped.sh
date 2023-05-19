@@ -55,7 +55,11 @@ else
 fi
 
 rm -rf ${subid}_${sesid}_outputs/working
-7z a ${subid}_${sesid}_c-pac-1.8.5.zip ${subid}_${sesid}_outputs
-rm -rf ${subid}_${sesid}_outputs
+#7z a ${subid}_${sesid}_c-pac-1.8.5.zip ${subid}_${sesid}_outputs
+#rm -rf ${subid}_${sesid}_outputs
+mkdir cpac_RBCv0
+mv ${subid}_${sesid}_outputs/output/pipeline_RBCv0/* cpac_RBCv0
+rm cpac_RBCv0/${subid}/${sesid}/anat/*desc-linear*
+rm cpac_RBCv0/${subid}/${sesid}/anat/*desc-nonlinear*
 rm ${filterfile}
 
