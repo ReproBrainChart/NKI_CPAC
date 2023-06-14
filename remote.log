@@ -1,1 +1,2 @@
 5e187388-fe74-42dc-ad4b-6827f8c597dd archive-id=003487bb-b745-4f4d-a3a3-607838cc1f13 autoenable=true encryption=none externaltype=ora name=output-storage type=external url=ria+file:///cbica/projects/RBC/production/NKI/c-pac-1.8.5/output_ria timestamp=1684255782.854523s
+89c1f56e-ba9e-41b1-9e52-8bde2446fe19 autoenable=true bucket=fcp-indi datacenter=US encryption=none exporttree=no fileprefix=data/Projects/RBC/NKI_CPAC/ host=s3.amazonaws.com name=fcp-indi partsize=1GiB port=80 public=yes storageclass=STANDARD type=S3 timestamp=1686752000.213377603s
