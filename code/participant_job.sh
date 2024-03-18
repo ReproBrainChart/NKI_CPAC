@@ -60,6 +60,7 @@ datalad get -n "inputs/data/${subid}"
 
 # Reomve all subjects we're not working on
 (cd inputs/data && rm -rf `find . -type d -name 'sub*' | grep -v $subid`)
+(cd inputs/data/${subid} && rm -rf `find . -type d -name 'ses*' | grep -v $sesid`)
 
 # ------------------------------------------------------------------------------
 # Do the run!
