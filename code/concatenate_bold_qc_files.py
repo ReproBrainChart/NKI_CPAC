@@ -118,6 +118,7 @@ def concatenate_bold_qc(study_name, bold_dir):
 
     output_file = bold_dir / "cpac_RBCv0" / f"study-{study_name}_desc-functional_qc.tsv"
     logging.info(f"writing bold qc tsv to {output_file}")
+    all_qc.to_csv(output_file, index=False, sep="\t")
 
 
 def get_parser():
